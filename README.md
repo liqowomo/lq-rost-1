@@ -10,7 +10,8 @@
 ----
 1. [Huh ?](#huh-)
 2. [Branchypanty](#branchypanty)
-3. [dimzn](#dimzn)
+3. [Diroza](#diroza)
+4. [Exblainator](#exblainator)
 
 ----
 
@@ -26,16 +27,13 @@
 [`r1`] | Rosto worka habbening
 
 
-# dimzn
+# Diroza
 
-kkjjhjkhh
+1. WTF in dat dirs be writingz herea 
 
-
-
-
-
+Dir | Dafug ?
+|:--:|:--:|
 
 
-jhgjgjsdsd
+# Exblainator 
 
-sdsddsdsd
