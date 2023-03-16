@@ -54,3 +54,7 @@ Dir | Dafug ?
 
 ## Pyrometer 
 
+[`https://github.com/nascentxyz/pyrometer`](https://github.com/nascentxyz/pyrometer)
+> Effectively, Pyrometer is a mix of symbolic execution, abstract interpretation, and static analysis - we take ideas from each and apply them with an engineering first mindset to create an effective tool (and avoid nerdsnipes by academic papers) aiming to help both auditors and developers.
+- Time to study ask women to shove their booties in my face later 
+- 

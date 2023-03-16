@@ -1,0 +1,20 @@
+[package]
+name = "pyrometer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+petgraph = "0.6.2"
+solang-parser = { version = "0.2.1", features = ["pt-serde"] }
+ethers-core = "*"
+ariadne = "0.2.0"
+shared = { path = "./shared" }
+hex = "0.4.3"
+
+[workspace]
+members = ["cli", "shared"]
+
+[profile.release.package.cli]
+debug = true
