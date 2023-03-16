@@ -1,6 +1,6 @@
 
-<img src="./l/l.gif" align="right" width="150">
-<img src="./l/l.gif" align="left" width="150">
+<img src="./l/l.gif" align="right" width="100">
+<img src="./l/l.gif" align="left" width="100">
 
 ----
 
