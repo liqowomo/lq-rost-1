@@ -23,6 +23,8 @@
 
 🥼 | 🥼
 |:--:|:--:|
+[`r1`] | Rosto worka habbening
+
 
 # dimzn
 
