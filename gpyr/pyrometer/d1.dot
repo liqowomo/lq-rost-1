@@ -1,0 +1,227 @@
+digraph G {
+    node [shape=box, style="filled, rounded", color="#565f89", fontcolor="#d5daf0", fontname="Helvetica", fillcolor="#24283b"];
+    edge [color="#414868", fontcolor="#c0caf5", fontname="Helvetica"];
+    bgcolor="#1a1b26";
+    0 [ label = "bytes32", color = "#565f89"]
+    1 [ label = "uint8", color = "#565f89"]
+    2 [ label = "address", color = "#565f89"]
+    3 [ label = "bool", color = "#565f89"]
+    4 [ label = "string", color = "#565f89"]
+    5 [ label = "bytes", color = "#565f89"]
+    6 [ label = "bytes20", color = "#565f89"]
+    7 [ label = "uint64", color = "#565f89"]
+    8 [ label = "bytes4", color = "#565f89"]
+    9 [ label = "Msg(Msg { data: None, sender: None, sig: None, value: None, origin: None, gasprice: None, gaslimit: None })", color = "#565f89"]
+    10 [ label = "Block(Block { hash: None, basefee: None, chainid: None, coinbase: None, difficulty: None, gaslimit: None, number: None, prevrandao: None, timestamp: None })", color = "#565f89"]
+    11 [ label = "SourceUnit(0)", color = "#565f89"]
+    12 [ label = "SourceUnitPart(0, 0)", color = "#565f89"]
+    13 [ label = "contract F1A9", color = "#9ece6a"]
+    14 [ label = "function name()() external pure", color = "#73daca"]
+    15 [ label = "function generate(address)(address_seed) external view", color = "#73daca"]
+    16 [ label = "function verify(address, uint256)(address_seed, uint256_solution) external", color = "#73daca"]
+    17 [ label = "SourceUnitPart(0, 1)", color = "#565f89"]
+    18 [ label = "interface ISolve", color = "#9ece6a"]
+    19 [ label = "function curtaPlayer()() external pure", color = "#73daca"]
+    20 [ label = "string memory ", color = "#565f89"]
+    21 [ label = "address_seed", color = "#565f89"]
+    22 [ label = "uint256", color = "#565f89"]
+    23 [ label = "uint256", color = "#565f89"]
+    24 [ label = "address_seed", color = "#565f89"]
+    25 [ label = "uint256_solution", color = "#565f89"]
+    26 [ label = "bool", color = "#565f89"]
+    27 [ label = "address", color = "#565f89"]
+    28 [ label = "Context", color = "#bb9af7"]
+    29 [ label = "Concrete(String('0xF1A9'))", color = "#565f89"]
+    30 [ label = "Context", color = "#bb9af7"]
+    31 [ label = "_seed -- address -- range: [0x0000000000000000000000000000000000000000, 0xffffffffffffffffffffffffffffffffffffffff] excluding: []", color = "#ff9e64"]
+    32 [ label = "uint160", color = "#565f89"]
+    33 [ label = "_seed -- address -- range: [0x0000000000000000000000000000000000000000, 0xffffffffffffffffffffffffffffffffffffffff] excluding: []", color = "#ff9e64"]
+    34 [ label = "_seed -- uint160 -- range: [0, 2**160 - 1] excluding: []", color = "#ff9e64"]
+    35 [ label = "_seed -- uint256 -- range: [0, 2**160 - 1] excluding: []", color = "#ff9e64"]
+    36 [ label = "block.number -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    37 [ label = "Concrete(Uint(8, 8))", color = "#565f89"]
+    38 [ label = "Concrete(Uint(256, 8))", color = "#565f89"]
+    39 [ label = "Concrete(Uint(8, 31))", color = "#565f89"]
+    40 [ label = "Concrete(Uint(256, 31))", color = "#565f89"]
+    41 [ label = "Concrete(Uint(8, 2))", color = "#565f89"]
+    42 [ label = "Concrete(Uint(256, 2))", color = "#565f89"]
+    43 [ label = "Concrete(Uint(16, 65535))", color = "#565f89"]
+    44 [ label = "Concrete(Uint(256, 65535))", color = "#565f89"]
+    45 [ label = "Context", color = "#bb9af7"]
+    46 [ label = "_solution -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    47 [ label = "_seed -- address -- range: [0x0000000000000000000000000000000000000000, 0xffffffffffffffffffffffffffffffffffffffff] excluding: []", color = "#ff9e64"]
+    48 [ label = "_seed -- address -- range: [0x0000000000000000000000000000000000000000, 0xffffffffffffffffffffffffffffffffffffffff] excluding: []", color = "#ff9e64"]
+    49 [ label = "generate(address) -- function generate(address) -- range: ", color = "#ff9e64"]
+    50 [ label = "Context", color = "#bb9af7"]
+    51 [ label = "Function Call", color = "#73daca"]
+    52 [ label = "_seed -- address -- range: [0x0000000000000000000000000000000000000000, 0xffffffffffffffffffffffffffffffffffffffff] excluding: []", color = "#ff9e64"]
+    53 [ label = "_seed -- address -- range: [0x0000000000000000000000000000000000000000, 0xffffffffffffffffffffffffffffffffffffffff] excluding: []", color = "#ff9e64"]
+    54 [ label = "_seed -- uint160 -- range: [0, 2**160 - 1] excluding: []", color = "#ff9e64"]
+    55 [ label = "_seed -- uint256 -- range: [0, 2**160 - 1] excluding: []", color = "#ff9e64"]
+    56 [ label = "block.number -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    57 [ label = "Concrete(Uint(8, 8))", color = "#565f89"]
+    58 [ label = "Concrete(Uint(256, 8))", color = "#565f89"]
+    59 [ label = "Concrete(Uint(8, 31))", color = "#565f89"]
+    60 [ label = "Concrete(Uint(256, 31))", color = "#565f89"]
+    61 [ label = "Concrete(Uint(8, 2))", color = "#565f89"]
+    62 [ label = "Concrete(Uint(256, 2))", color = "#565f89"]
+    63 [ label = "Concrete(Uint(16, 65535))", color = "#565f89"]
+    64 [ label = "Concrete(Uint(256, 65535))", color = "#565f89"]
+    65 [ label = "_seed -- address -- range: [0x0000000000000000000000000000000000000000, 0xffffffffffffffffffffffffffffffffffffffff] excluding: []", color = "#ff9e64"]
+    66 [ label = "_start -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    67 [ label = "_start -- uint256 -- range: [0, 65535] excluding: []", color = "#ff9e64"]
+    68 [ label = "Context", color = "#bb9af7"]
+    69 [ label = "Context", color = "#bb9af7"]
+    70 [ label = "Context Fork", color = "#565f89"]
+    71 [ label = "Concrete(Uint(16, 61865))", color = "#565f89"]
+    72 [ label = "Concrete(Uint(8, 16))", color = "#565f89"]
+    73 [ label = "Concrete(Uint(256, 61865))", color = "#565f89"]
+    74 [ label = "Concrete(Uint(256, 61865))", color = "#565f89"]
+    75 [ label = "Concrete(Uint(256, 16))", color = "#565f89"]
+    76 [ label = "Concrete(Uint(256, 16))", color = "#565f89"]
+    77 [ label = "_start -- uint256 -- range: [0, 65535] excluding: []", color = "#ff9e64"]
+    78 [ label = "_start -- uint256 -- range: [0, 65535] excluding: []", color = "#ff9e64"]
+    79 [ label = "block.timestamp -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    80 [ label = "Concrete(Uint(32, 1678446000))", color = "#565f89"]
+    81 [ label = "Concrete(Uint(256, 1678446000))", color = "#565f89"]
+    82 [ label = "block.timestamp -- uint256 -- range: [0, 1678445999] excluding: []", color = "#ff9e64"]
+    83 [ label = "Concrete(Uint(0, 0))", color = "#565f89"]
+    84 [ label = "block.timestamp -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    85 [ label = "Concrete(Uint(32, 1678446000))", color = "#565f89"]
+    86 [ label = "Concrete(Uint(256, 1678446000))", color = "#565f89"]
+    87 [ label = "block.timestamp -- uint256 -- range: [1678446000, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    88 [ label = "prefix -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    89 [ label = "prefix -- uint256 -- range: [4054384640, 4054450175] excluding: []", color = "#ff9e64"]
+    90 [ label = "Concrete(Uint(256, 0))", color = "#565f89"]
+    91 [ label = "prefix -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    92 [ label = "prefix -- uint256 -- range: [0, 0] excluding: []", color = "#ff9e64"]
+    93 [ label = "function require(bool) internal", color = "#73daca"]
+    94 [ label = "bool", color = "#565f89"]
+    95 [ label = "_solution -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    96 [ label = "_solution -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    97 [ label = "Concrete(Uint(8, 128))", color = "#565f89"]
+    98 [ label = "Concrete(Uint(256, 128))", color = "#565f89"]
+    99 [ label = "prefix -- uint256 -- range: [4054384640, 4054450175] excluding: []", color = "#ff9e64"]
+    100 [ label = "prefix -- uint256 -- range: [4054384640, 4054450175] excluding: []", color = "#ff9e64"]
+    101 [ label = "_solution -- uint256 -- range: [false, false] excluding: []", color = "#ff9e64"]
+    102 [ label = "function require(bool) internal", color = "#73daca"]
+    103 [ label = "bool", color = "#565f89"]
+    104 [ label = "_solution -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    105 [ label = "_solution -- uint256 -- range: [0, 2**256 - 1] excluding: []", color = "#ff9e64"]
+    106 [ label = "Concrete(Uint(8, 128))", color = "#565f89"]
+    107 [ label = "Concrete(Uint(256, 128))", color = "#565f89"]
+    108 [ label = "prefix -- uint256 -- range: [0, 0] excluding: []", color = "#ff9e64"]
+    109 [ label = "prefix -- uint256 -- range: [0, 0] excluding: []", color = "#ff9e64"]
+    110 [ label = "_solution -- uint256 -- range: [true, true] excluding: []", color = "#ff9e64"]
+    12 -> 11 [ label = "Part"]
+    14 -> 13 [ label = "Func"]
+    15 -> 13 [ label = "Func"]
+    16 -> 13 [ label = "Func"]
+    13 -> 12 [ label = "Contract"]
+    17 -> 11 [ label = "Part"]
+    19 -> 18 [ label = "Func"]
+    18 -> 17 [ label = "Contract"]
+    20 -> 14 [ label = "FunctionReturn"]
+    21 -> 15 [ label = "FunctionParam"]
+    23 -> 15 [ label = "FunctionReturn"]
+    24 -> 16 [ label = "FunctionParam"]
+    25 -> 16 [ label = "FunctionParam"]
+    26 -> 16 [ label = "FunctionReturn"]
+    27 -> 19 [ label = "FunctionReturn"]
+    28 -> 14 [ label = "Context"]
+    30 -> 15 [ label = "Context"]
+    31 -> 30 [ label = "Variable"]
+    33 -> 31 [ label = "Prev"]
+    36 -> 30 [ label = "Variable"]
+    45 -> 16 [ label = "Context"]
+    46 -> 45 [ label = "Variable"]
+    47 -> 45 [ label = "Variable"]
+    48 -> 47 [ label = "Prev"]
+    49 -> 45 [ label = "Variable"]
+    51 -> 45 [ label = "Subcontext"]
+    51 -> 15 [ label = "Call"]
+    50 -> 51 [ label = "Subcontext"]
+    52 -> 50 [ label = "Variable"]
+    53 -> 52 [ label = "Prev"]
+    56 -> 50 [ label = "Variable"]
+    65 -> 48 [ label = "Prev"]
+    66 -> 45 [ label = "Variable"]
+    67 -> 66 [ label = "Prev"]
+    67 -> 45 [ label = "Variable"]
+    70 -> 45 [ label = "ContextFork"]
+    68 -> 70 [ label = "Subcontext"]
+    69 -> 70 [ label = "Subcontext"]
+    77 -> 67 [ label = "Prev"]
+    78 -> 68 [ label = "Variable"]
+    79 -> 68 [ label = "Variable"]
+    82 -> 79 [ label = "Prev"]
+    84 -> 69 [ label = "Variable"]
+    87 -> 84 [ label = "Prev"]
+    88 -> 68 [ label = "Variable"]
+    89 -> 88 [ label = "Prev"]
+    89 -> 68 [ label = "Variable"]
+    91 -> 69 [ label = "Variable"]
+    92 -> 91 [ label = "Prev"]
+    92 -> 69 [ label = "Variable"]
+    94 -> 93 [ label = "FunctionParam"]
+    95 -> 46 [ label = "Prev"]
+    96 -> 68 [ label = "Variable"]
+    99 -> 89 [ label = "Prev"]
+    100 -> 99 [ label = "Prev"]
+    101 -> 96 [ label = "Prev"]
+    103 -> 102 [ label = "FunctionParam"]
+    104 -> 95 [ label = "Prev"]
+    105 -> 69 [ label = "Variable"]
+    108 -> 92 [ label = "Prev"]
+    109 -> 108 [ label = "Prev"]
+    110 -> 105 [ label = "Prev"]
+
+}
+from: String("0xF1A9")
+[36mBounds:[0m Bounds for function: [36mfunction name()[0m
+[36mBounds:[0m Bounds for subcontext: [36mname()[0m[33m[0m
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0mcurta.sol:3:59[38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m3 │[0m ╭─▶ [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m [0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249m([0m[38;5;249m)[0m[38;5;249m [0m[38;5;249me[0m[38;5;249mx[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249m [0m[38;5;249mp[0m[38;5;249mu[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mt[0m[38;5;249mu[0m[38;5;249mr[0m[38;5;249mn[0m[38;5;249ms[0m[38;5;249m [0m[38;5;249m([0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249mr[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mg[0m[38;5;249m [0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mm[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249my[0m[38;5;249m)[0m[38;5;249m [0m{
+ [38;5;240m  ┆[0m ┆   
+ [38;5;246m5 │[0m ├─▶     }
+ [38;5;240m  │[0m │           
+ [38;5;240m  │[0m ╰─────────── Entry function call
+[38;5;246m───╯[0m
+[36mBounds:[0m Bounds for function: [36mfunction generate(address)[0m
+[36mBounds:[0m Bounds for subcontext: [36mgenerate(address)[0m[33m[0m
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0mcurta.sol:8:70[38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m 8 │[0m ╭─▶ [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m [0m[38;5;249mg[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249ma[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249m([0m[38;5;249ma[0m[38;5;249md[0m[38;5;249md[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249ms[0m[38;5;249m [0m[38;5;249m_[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249me[0m[38;5;249md[0m[38;5;249m)[0m[38;5;249m [0m[38;5;249me[0m[38;5;249mx[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249m [0m[38;5;249mv[0m[38;5;249mi[0m[38;5;249me[0m[38;5;249mw[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mt[0m[38;5;249mu[0m[38;5;249mr[0m[38;5;249mn[0m[38;5;249ms[0m[38;5;249m [0m[38;5;249m([0m[38;5;249mu[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249m2[0m[38;5;249m5[0m[38;5;249m6[0m[38;5;249m)[0m[38;5;249m [0m{
+ [38;5;246m 9 │[0m │           [33mr[0m[33me[0m[33mt[0m[33mu[0m[33mr[0m[33mn[0m[33m [0m[33m([0m[33mu[0m[33mi[0m[33mn[0m[33mt[0m[33m2[0m[33m5[0m[33m6[0m[33m([0m[33mu[0m[33mi[0m[33mn[0m[33mt[0m[33m1[0m[33m6[0m[33m0[0m[33m([0m[33m_[0m[33ms[0m[33me[0m[33me[0m[33md[0m[33m)[0m[33m)[0m[33m [0m[33m>[0m[33m>[0m[33m [0m[33m([0m[33m([0m[33m([0m[33mb[0m[33ml[0m[33mo[0m[33mc[0m[33mk[0m[33m.[0m[33mn[0m[33mu[0m[33mm[0m[33mb[0m[33me[0m[33mr[0m[33m [0m[33m>[0m[33m>[0m[33m [0m[33m8[0m[33m)[0m[33m [0m[33m&[0m[33m [0m[33m0[0m[33mx[0m[33m1[0m[33mF[0m[33m)[0m[33m [0m[33m<[0m[33m<[0m[33m [0m[33m2[0m[33m)[0m[33m)[0m[33m [0m[33m&[0m[33m [0m[33m0[0m[33mx[0m[33mF[0m[33mF[0m[33mF[0m[33mF[0m;
+ [38;5;240m   │[0m │           [33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m┬[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m  
+ [38;5;240m   │[0m │                                                   [33m╰[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m[33m─[0m [33mreturns: "((_seed >> (((block.number >> 8) & 31) << 2)) & 65535)" ∈ [ [38;5;111m0[0m, [38;5;106m65535[0m ][0m
+ [38;5;246m10 │[0m ├─▶     }
+ [38;5;240m   │[0m │           
+ [38;5;240m   │[0m ╰─────────── Entry function call
+[38;5;246m────╯[0m
+[36mBounds:[0m Bounds for function: [36mfunction verify(address, uint256)[0m
+[36mBounds:[0m Bounds for subcontext: [36mverify(address, uint256).fork.0[0m where:
+[33m  1. ((_solution >> 128) == prefix) == true
+  2. (block.timestamp < 1678446000) == true
+[0m
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0mcurta.sol:13:79[38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m13 │[0m ╭─▶ [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m [0m[38;5;249mv[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mi[0m[38;5;249mf[0m[38;5;249my[0m[38;5;249m([0m[38;5;249ma[0m[38;5;249md[0m[38;5;249md[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249ms[0m[38;5;249m [0m[38;5;249m_[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249me[0m[38;5;249md[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249m2[0m[38;5;249m5[0m[38;5;249m6[0m[38;5;249m [0m[38;5;249m_[0m[38;5;249ms[0m[38;5;249mo[0m[38;5;249ml[0m[38;5;249mu[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m)[0m[38;5;249m [0m[38;5;249me[0m[38;5;249mx[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mt[0m[38;5;249mu[0m[38;5;249mr[0m[38;5;249mn[0m[38;5;249ms[0m[38;5;249m [0m[38;5;249m([0m[38;5;249mb[0m[38;5;249mo[0m[38;5;249mo[0m[38;5;249ml[0m[38;5;249m)[0m[38;5;249m [0m{
+ [38;5;240m   ┆[0m ┆   
+ [38;5;246m21 │[0m ├─▶     }
+ [38;5;240m   │[0m │           
+ [38;5;240m   │[0m ╰─────────── Entry function call
+[38;5;246m────╯[0m
+[36mBounds:[0m Bounds for subcontext: [36mverify(address, uint256).fork.1[0m where:
+[33m  1. ((_solution >> 128) == prefix) == true
+  2. (block.timestamp >= 1678446000) == true
+[0m
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0mcurta.sol:13:79[38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m13 │[0m ╭─▶ [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m [0m[38;5;249mv[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mi[0m[38;5;249mf[0m[38;5;249my[0m[38;5;249m([0m[38;5;249ma[0m[38;5;249md[0m[38;5;249md[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249ms[0m[38;5;249m [0m[38;5;249m_[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249me[0m[38;5;249md[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249m2[0m[38;5;249m5[0m[38;5;249m6[0m[38;5;249m [0m[38;5;249m_[0m[38;5;249ms[0m[38;5;249mo[0m[38;5;249ml[0m[38;5;249mu[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m)[0m[38;5;249m [0m[38;5;249me[0m[38;5;249mx[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mt[0m[38;5;249mu[0m[38;5;249mr[0m[38;5;249mn[0m[38;5;249ms[0m[38;5;249m [0m[38;5;249m([0m[38;5;249mb[0m[38;5;249mo[0m[38;5;249mo[0m[38;5;249ml[0m[38;5;249m)[0m[38;5;249m [0m{
+ [38;5;240m   ┆[0m ┆   
+ [38;5;246m21 │[0m ├─▶     }
+ [38;5;240m   │[0m │           
+ [38;5;240m   │[0m ╰─────────── Entry function call
+[38;5;246m────╯[0m
